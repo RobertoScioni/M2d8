@@ -1,79 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+			integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+			crossorigin="anonymous"
+		/>
+		<!-- Optional JavaScript; choose one of the two! -->
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-  <!-- Optional JavaScript; choose one of the two! -->
+		<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="M2-D8.css" />
+		<title>Hello, world!</title>
+	</head>
 
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="M2-D8.css" />
-  <title>Hello, world!</title>
-</head>
+	<body>
+		<!--navbar start-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<div class="container">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-<body>
-  <!--navbar start-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--EX1-->
-  <main class="container text-center">
-    <section class="mt-3">
-      <h2>Exercise1</h2>
-      <p>
-        Ricreate this table just using Bootstrap4 classes or styling, without
-        adding/removing any DOM element
-      </p>
-      <div class="row ex1 bg-success ">
-        <div class="col col-6 d-flex justify-content-center align-items-center text-white border-right border-dark">
-          <div class=" w-50 ">
-            First Column
-            Height 400px
-            Green-ish beckground
-            Text Centered
-          </div>
-
-        </div>
-        <div class="col col-6 d-flex p-0 border-left border-dark">
-          <div class="col-4 bg-primary text-white align-items-end d-flex p-3">
-            Second Column
-            Text To the bold blue-ish background
-          </div>
-          <div class="col-8 third-col p-0 ">
-            <div class="d-flex justify-content-center align-items-center">This Colum Part 1</div>
-            <div class="d-flex justify-content-center align-items-center">This Colum Part 2</div>
-            <div class="d-flex justify-content-center align-items-center">This Colum Part 3</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-</body>
-
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#"
+								>Home <span class="sr-only">(current)</span></a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main class="container text-center">
+			<!--EX1-->
+			<section class="mt-3">
+				<h2>Exercise1</h2>
+				<p>
+					Ricreate this table just using Bootstrap4 classes or styling, without
+					adding/removing any DOM element
+				</p>
+				<div class="row ex1 bg-success">
+					<div
+						class="col col-6 d-flex justify-content-center align-items-center text-white border-right border-dark"
+					>
+						<div class="w-50">
+							First Column Height 400px Green-ish beckground Text Centered
+						</div>
+					</div>
+					<div class="col col-6 d-flex p-0 border-left border-dark">
+						<div class="col-4 bg-primary text-white align-items-end d-flex p-3">
+							Second Column Text To the bold blue-ish background
+						</div>
+						<div class="col-8 third-col p-0">
+							<div class="d-flex justify-content-center align-items-center">
+								This Colum Part 1
+							</div>
+							<div class="d-flex justify-content-center align-items-center">
+								This Colum Part 2
+							</div>
+							<div class="d-flex justify-content-center align-items-center">
+								This Colum Part 3
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--EX2-->
+			<section id="EX2" class="mt-3">
+				<h2>Exercise 2</h2>
+				<p>
+					Create a Pricing table to sell your product! Classical, 3 card approac
+					with 3 pricing.This is a classical user/proiced product with new
+					features enabled for the pro/enterprise version.
+				</p>
+				<div class="d-md-flex">
+					<div class="card m-2" style="width: 18rem">
+						<h5 class="card-header">Free</h5>
+						<div class="card-body">
+							<span class="h1 text-dark">€0</span>
+							<span class="h2">/mo</span>
+							<p class="card-text">
+								10 users included <br />
+								2 GB of storage <br />
+								Email support <br />
+								Help center access
+							</p>
+							<a href="#" class="btn btn-outline-primary btn-lg btn-block"
+								>Sign up for free</a
+							>
+						</div>
+					</div>
+					<div class="card m-2" style="width: 18rem">
+						<h5 class="card-header">Pro</h5>
+						<div class="card-body">
+							<span class="h1 text-dark">€15</span>
+							<span class="h2">/mo</span>
+							<p class="card-text">
+								20 users included <br />
+								10 GB of storage <br />
+								Priority Email support <br />
+								Help center access
+							</p>
+							<a href="#" class="btn btn-primary btn-lg btn-block"
+								>Get started</a
+							>
+						</div>
+					</div>
+					<div class="card m-2" style="width: 18rem">
+						<h5 class="card-header">Enterprise</h5>
+						<div class="card-body">
+							<span class="h1 text-dark">€29</span>
+							<span class="h2">/mo</span>
+							<p class="card-text">
+								30 users included <br />
+								15 GB of storage <br />
+								Phone and Email support <br />
+								Help center access
+							</p>
+							<a href="#" class="btn btn-primary btn-lg btn-block"
+								>Contact us</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--EX3-->
+			<section id="EX3" class="mt-3">
+				<div class=".container pt-5 pb-5 pl-3 pr-3 bg-light">
+					<div class="row">
+						<div class="col col-12 col-md-4">
+							<div class="card" style="width: 18rem">
+								<img
+									src="http://placehold.it/300x150"
+									class="card-img-top"
+									alt="..."
+								/>
+								<div class="card-body">
+									<p class="card-text text-left">
+										here you can place your video description in order to inform
+										the user of what to expect by clicking on the link
+									</p>
+									<div class="btn-group align-content-start">
+										<a href="#" class="btn btn-outline-secondary">View</a>
+										<a href="#" class="btn btn-outline-secondary">Edit</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
