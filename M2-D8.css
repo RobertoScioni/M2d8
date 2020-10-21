@@ -8,6 +8,10 @@ html {
   font-size: 120%;
 }
 
+body {
+  color: grey;
+}
+
 .ex1 {
   height: 400px;
   border-radius: 2rem;
@@ -19,15 +23,15 @@ html {
   border-bottom-right-radius: 2rem;
 }
 .third-col * {
-  height: 33%;
+  height: 33.34%;
 }
 
-.third-col:nth-child(1) {
+.third-col *:nth-child(1) {
   background-color: rgb(207, 207, 140);
 }
-.third-col:nth-child(2) {
-  background-color: rgb(203, 221, 43);
+.third-col *:nth-child(2) {
+  background-color: rgb(163, 175, 52);
 }
-.third-col:nth-child(3) {
-  background-color: red;
+.third-col *:nth-child(3) {
+  background-color: yellow;
 }

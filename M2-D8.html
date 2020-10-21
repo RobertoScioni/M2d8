@@ -43,20 +43,31 @@
   </nav>
   <!--EX1-->
   <main class="container text-center">
-    <section>
+    <section class="mt-3">
       <h2>Exercise1</h2>
       <p>
         Ricreate this table just using Bootstrap4 classes or styling, without
         adding/removing any DOM element
       </p>
       <div class="row ex1 bg-success ">
-        <div class="col col-6"></div>
-        <div class="col col-6 d-flex p-0 ">
-          <div class="col-4 bg-primary"></div>
-          <div class="col-8 third-col ">
-            <div>This Colum Part 1</div>
-            <div>This Colum Part 2</div>
-            <div>This Colum Part 3</div>
+        <div class="col col-6 d-flex justify-content-center align-items-center text-white border-right border-dark">
+          <div class=" w-50 ">
+            First Column
+            Height 400px
+            Green-ish beckground
+            Text Centered
+          </div>
+
+        </div>
+        <div class="col col-6 d-flex p-0 border-left border-dark">
+          <div class="col-4 bg-primary text-white align-items-end d-flex p-3">
+            Second Column
+            Text To the bold blue-ish background
+          </div>
+          <div class="col-8 third-col p-0 ">
+            <div class="d-flex justify-content-center align-items-center">This Colum Part 1</div>
+            <div class="d-flex justify-content-center align-items-center">This Colum Part 2</div>
+            <div class="d-flex justify-content-center align-items-center">This Colum Part 3</div>
           </div>
         </div>
       </div>
