@@ -1,7 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 120%;
+}
+
 .ex1 {
-	min-height: 400px;
-	height: 400px;
-	background-color: greenyellow;
-	border-radius: 1rem;
-	border-style: solid;
+  height: 400px;
+  border-radius: 2rem;
+  border: 4px solid black;
+  overflow: hidden;
+}
+
+.ex1:nth-child(2) {
+  border-bottom-right-radius: 2rem;
+}
+.third-col * {
+  height: 33%;
+}
+
+.third-col:nth-child(1) {
+  background-color: rgb(207, 207, 140);
+}
+.third-col:nth-child(2) {
+  background-color: rgb(203, 221, 43);
+}
+.third-col:nth-child(3) {
+  background-color: red;
 }
